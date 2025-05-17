@@ -1,142 +1,210 @@
+/ministry-website
+  /index.html
+  /styles.css
+  /about.html
+  /donate.html
+  /contact.html
+  /blog.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inside the Heart of Christ Ministries</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Georgia', serif;
-      background-color: #0c0c0c;
-      color: #f5f5f5;
-    }
-    header, section {
-      padding: 40px 20px;
-      text-align: center;
-    }
-    h1, h2 {
-      color: #d4af37;
-    }
-    .button {
-      display: inline-block;
-      background-color: #8b1f1f;
-      color: white;
-      padding: 15px 25px;
-      text-decoration: none;
-      font-weight: bold;
-      margin-top: 20px;
-      border-radius: 4px;
-    }
-    .mission {
-      max-width: 700px;
-      margin: auto;
-      font-size: 1.1em;
-      line-height: 1.6;
-    }
-    .section-divider {
-      border-top: 1px solid #d4af37;
-      margin: 40px 0;
-    }
-    .videos, .books {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-    .video, .book {
-      background-color: #1a1a1a;
-      border-radius: 6px;
-      padding: 10px;
-      max-width: 200px;
-    }
-    .video img, .book img {
-      width: 100%;
-      border-radius: 4px;
-    }
-    .book-title {
-      margin-top: 10px;
-      font-weight: bold;
-    }
-    .buy-button {
-      display: block;
-      background-color: #d4af37;
-      color: black;
-      padding: 10px 0;
-      margin-top: 10px;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 4px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <h1>Inside the Heart of Christ Ministries</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<header>
-  <h1>INSIDE THE HEART OF CHRIST MINISTRIES</h1>
-  <p>Equipping Seers. Prophetic Believers</p>
-  <a href="#" class="button">WATCH LIVE TEACHINGS</a>
-</header>
+  <main>
+    <section>
+      <h2>Welcome to Inside the Heart of Christ Ministries</h2>
+      <p>Our mission is to equip and empower believers, especially those with a prophetic calling, through teachings and outreach programs.</p>
+    </section>
+  </main>
 
-<div class="section-divider"></div>
+  <footer>
+    <p>&copy; 2025 Inside the Heart of Christ Ministries</p>
+  </footer>
+</body>
+</html>
 
-<section>
-  <h2>OUR MISSION</h2>
-  <p class="mission">
-    Inside the Heart of Christ Ministries is a prophetic ministry dedicated to raising up seer prophets, healing the brokenhearted, and revealing the depths of Christ’s love and holiness. Founded by Cedric Mebane, this ministry is a house of equipping, deliverance, and truth—built on the foundation of God’s Word from a Hebrew perspective.
-  </p>
-</section>
 
-<div class="section-divider"></div>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
 
-<section>
-  <h2>RECENT TEACHINGS FROM FACEBOOK LIVE</h2>
-  <div class="videos">
-    <div class="video">
-      <img src="video1.jpg" alt="Teaching 1" />
-    </div>
-    <div class="video">
-      <img src="video2.jpg" alt="Teaching 2" />
-    </div>
-    <div class="video">
-      <img src="video3.jpg" alt="Teaching 3" />
-    </div>
-  </div>
-</section>
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
-<div class="section-divider"></div>
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
 
-<section>
-  <h2>BOOKS THAT TRANSFORM</h2>
-  <div class="books">
-    <div class="book">
-      <img src="prophetic-insights.jpg" alt="Prophetic Insights" />
-      <div class="book-title">Prophetic Insights</div>
-      <a href="#" class="buy-button">BUY NOW</a>
-    </div>
-    <div class="book">
-      <img src="chains-shall-be-broken.jpg" alt="Chains Shall Be Broken" />
-      <div class="book-title">Chains Shall Be Broken</div>
-      <a href="#" class="buy-button">BUY NOW</a>
-    </div>
-    <div class="book">
-      <img src="power-secret-place.jpg" alt="Power of Secret Place" />
-      <div class="book-title">The Power of Secret Place</div>
-      <a href="#" class="buy-button">BUY NOW</a>
-    </div>
-    <div class="book">
-      <img src="healing-heart.jpg" alt="Healing the Heart" />
-      <div class="book-title">Healing the Heart</div>
-      <a href="#" class="buy-button">BUY NOW</a>
-    </div>
-  </div>
-</section>
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
 
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Inside the Heart of Christ Ministries</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Inside the Heart of Christ Ministries</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p>Inside the Heart of Christ Ministries exists to help equip and empower believers, especially those with prophetic callings, through our teachings and outreach programs.</p>
+      <p>Our mission includes offering biblical teachings, workshops, and basketball camps for youth, along with providing spiritual support for the community.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Inside the Heart of Christ Ministries</p>
+  </footer>
 </body>
 </html>
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate - Inside the Heart of Christ Ministries</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Inside the Heart of Christ Ministries</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Support Our Ministry</h2>
+      <p>Your generosity allows us to continue reaching the lost and teaching the prophetic. Every donation helps us serve the youth, provide teaching materials, and expand our outreach.</p>
+      <a href="https://www.paypal.com/donate?business=yourpaypalaccount" target="_blank">Donate Now</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Inside the Heart of Christ Ministries</p>
+  </footer>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Inside the Heart of Christ Ministries</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Inside the Heart of Christ Ministries</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Us</h2>
+      <p>Have questions? Want to get involved? Reach out to us below:</p>
+      <p>Email: info@heartofchristministry.com</p>
+      <p>Phone: (555) 123-4567</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Inside the Heart of Christ Ministries</p>
+  </footer>
+</body>
+</html>
+
+  
+     
+    
 
       
 

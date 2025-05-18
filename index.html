@@ -1,138 +1,188 @@
-
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Inside the Heart of Christ Ministries</title>
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #fdf5e6; /* Cream background */
-      color: #2d2d2d;
+      margin: 0;
+      background-color: #000000;
+      color: #ffffff;
     }
     header {
-      background-color: #5c1a1b; /* Burgundy */
-      color: #fff;
-      padding: 20px;
+      background-color: #000000;
+      color: #FFD700;
+      padding: 1rem;
       text-align: center;
     }
+    nav {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 0.5rem;
+    }
     nav a {
-      margin: 0 15px;
-      color: #fff;
+      color: #FFD700;
+      margin: 0 1rem;
       text-decoration: none;
       font-weight: bold;
     }
     section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
+      padding: 2rem;
+      border-bottom: 1px solid #333;
     }
     h2 {
-      color: #5c1a1b;
+      color: #FFD700;
     }
-    .video-wrapper iframe {
+    .video-embed iframe {
       width: 100%;
-      height: 315px;
-      margin-bottom: 20px;
+      height: 300px;
+      border: none;
+      margin-bottom: 1rem;
     }
-    .book {
-      background: #fff;
-      border: 1px solid #ddd;
-      padding: 15px;
-      margin-bottom: 20px;
+    .book-store {
+      background-color: #1a1a1a;
+      padding: 1rem;
       border-radius: 8px;
     }
-    .book h3 {
-      margin-top: 0;
+    .book-item {
+      margin-bottom: 1rem;
     }
-    .book button {
-      background-color: #5c1a1b;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-    .gallery img {
-      max-width: 100%;
+    .book-item img {
+      width: 120px;
       height: auto;
-      margin: 10px;
-      border: 2px solid #5c1a1b;
-      border-radius: 10px;
+      border: 2px solid #FFD700;
+      border-radius: 8px;
+    }
+    .donate ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .donate ul li {
+      margin-bottom: 0.5rem;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      border: none;
+    }
+    .contact-form button {
+      padding: 0.6rem 1.2rem;
+      background-color: #FFD700;
+      border: none;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
     }
     footer {
-      background-color: #5c1a1b;
-      color: #fff;
+      background-color: #1a1a1a;
+      color: #999;
       text-align: center;
-      padding: 20px;
+      padding: 1rem;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Inside the Heart of Christ Ministries</h1>
-    <nav>
-      <a href="#mission">Our Mission</a>
-      <a href="#videos">Teachings</a>
-      <a href="#books">The Wisdom Vault</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#events">Events</a>
-      <a href="#donate">Donate</a>
-    </nav>
-  </header> <section id="mission">
+  </header>
+  <nav>
+    <a href="#mission">Mission</a>
+    <a href="#videos">Teachings</a>
+    <a href="#store">Bookstore</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#events">Events</a>
+    <a href="#donate">Donate</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="mission">
     <h2>Our Mission</h2>
-    <p>Equipping and empowering seer prophets and believers through prophetic teaching, spiritual insight, and the love of Christ.</p>
-  </section> <section id="videos">
+    <p>
+      To equip believers through prophetic teaching and spiritual insight, empowering them to walk in the fullness of Christ.
+    </p>
+  </section>
+
+  <section id="videos">
     <h2>Latest Teachings</h2>
-    <div class="video-wrapper">
-      <iframe src="https://www.facebook.com/share/p/19Z8Us3hXn/embed" frameborder="0" allowfullscreen></iframe>
-      <iframe src="https://www.facebook.com/share/p/1FNaNGk6DR/embed" frameborder="0" allowfullscreen></iframe>
-      <iframe src="https://www.facebook.com/share/p/15fb8vPKtw/embed" frameborder="0" allowfullscreen></iframe>
+    <div class="video-embed">
+      <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/share/p/19Z8Us3hXn/" allowfullscreen></iframe>
+      <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/share/p/1FNaNGk6DR/" allowfullscreen></iframe>
+      <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/share/p/15fb8vPKtw/" allowfullscreen></iframe>
     </div>
-  </section> <section id="books">
-    <h2>The Wisdom Vault</h2>
-    <div class="book">
-      <h3>The Flying Scroll</h3>
-      <p>Price: $2</p>
-      <button>Buy Now</button>
+  </section>
+
+  <section id="store">
+    <h2>The Wisdom Vault - Bookstore</h2>
+    <div class="book-store">
+      <div class="book-item">
+        <img src="book1.jpg" alt="The Flying Scroll" />
+        <p><strong>The Flying Scroll</strong> – $2</p>
+      </div>
+      <div class="book-item">
+        <img src="book2.jpg" alt="The Seer House" />
+        <p><strong>The Seer House</strong> – $10</p>
+      </div>
+      <div class="book-item">
+        <p>All other eBooks: <strong>$5</strong> each.</p>
+      </div>
+      <p><strong>To Order:</strong> Message us with your book title & preferred payment method. You’ll receive your book via email after payment.</p>
     </div>
-    <div class="book">
-      <h3>The Seer House</h3>
-      <p>Price: $10</p>
-      <button>Buy Now</button>
-    </div>
-    <!-- Repeat for other books at $5 -->
-    <div class="book">
-      <h3>Other Books</h3>
-      <p>Each $5</p>
-      <button>Buy Now</button>
-    </div>
-  </section> <section id="gallery">
+  </section>
+
+  <section id="gallery">
     <h2>Gallery</h2>
     <div class="gallery">
-      <img src="/mnt/data/file-MhgbZBqJkudcw9dYrs9EeS" alt="Gallery Image 1">
-      <img src="/mnt/data/file-LQAkUu2opLNbMaFVS3mNvD" alt="Gallery Image 2">
-      <img src="/mnt/data/file-HPdDUChYMH4UZZmHufLgeM" alt="Gallery Image 3">
+      <img src="gallery1.jpg" alt="Gallery Image 1">
+      <img src="gallery2.jpg" alt="Gallery Image 2">
+      <img src="gallery3.jpg" alt="Gallery Image 3">
     </div>
-  </section> <section id="events">
+  </section>
+
+  <section id="events">
     <h2>Upcoming Events</h2>
-    <p>Stay tuned for upcoming ministry events and live teachings.</p>
-  </section> <section id="donate">
-    <h2>Give to Inside the Heart of Christ Ministries</h2>
-    <p>Support our mission through the following:</p>
+    <p><strong>Facebook Live:</strong> Every Monday at 12 Noon EST</p>
+    <p>Workshops and online teachings throughout the year.</p>
+  </section>
+
+  <section id="donate" class="donate">
+    <h2>Support the Ministry</h2>
+    <p><strong>Ways to Give:</strong></p>
     <ul>
-      <li>Cash App: <strong>$InsideTheHeart25</strong></li>
-      <li>PayPal, Zelle, Venmo, Debit/Credit Cards – Coming soon</li>
+      <li><a href="https://cash.app" target="_blank" style="color: #FFD700;">Give via Your Own Cash App</a></li>
+      <li><a href="https://paypal.me/yourlink" target="_blank" style="color: #FFD700;">Give via PayPal</a></li>
+      <li><a href="#" style="color: #FFD700;">Zelle: youremail@example.com</a></li>
+      <li><a href="#" style="color: #FFD700;">Venmo: @YourName</a></li>
+      <li><a href="#" style="color: #FFD700;">Debit/Credit (Coming Soon)</a></li>
     </ul>
-  </section> <footer>
-    <p>&copy; 2025 Inside the Heart of Christ Ministries. All rights reserved.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Inside the Heart of Christ Ministries | Email: info@heartofchrist.org
   </footer>
 </body>
 </html>
 
-Yahoo Mail: Search, Organize, Conquer
 
+   
+      
+    
+    
 
   
      

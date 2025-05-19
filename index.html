@@ -1,193 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Inside the Heart of Christ Ministries</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #000000;
-      color: #ffffff;
+      font-family: Georgia, serif;
+      background-color: #0b0b0b;
+      color: #d6a857;
     }
-    header {
-      background-color: #000000;
-      color: #FFD700;
-      padding: 1rem;
+    header, section {
       text-align: center;
+      padding: 3rem 1rem;
     }
-    nav {
-      background-color: #1a1a1a;
-      text-align: center;
-      padding: 0.5rem;
-    }
-    nav a {
-      color: #FFD700;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 2rem;
-      border-bottom: 1px solid #333;
-    }
-    h2 {
-      color: #FFD700;
-    }
-    .video-embed iframe {
-      width: 100%;
-      height: 300px;
+    .btn {
+      background-color: #8e1b1b;
+      color: white;
+      padding: 0.75rem 2rem;
       border: none;
-      margin-bottom: 1rem;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .video-section iframe, .video-section video {
+      width: 300px;
+      height: 200px;
+      margin: 0.5rem;
     }
     .book-store {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .book {
       background-color: #1a1a1a;
       padding: 1rem;
-      border-radius: 8px;
-    }
-    .book-item {
-      margin-bottom: 1rem;
-    }
-    .book-item img {
-      width: 120px;
-      height: auto;
-      border: 2px solid #FFD700;
-      border-radius: 8px;
-    }
-    .donate ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    .donate ul li {
-      margin-bottom: 0.5rem;
-    }
-    .contact-form input,
-    .contact-form textarea {
-      width: 100%;
-      padding: 0.5rem;
-      margin-bottom: 1rem;
-      border-radius: 5px;
-      border: none;
-    }
-    .contact-form button {
-      padding: 0.6rem 1.2rem;
-      background-color: #FFD700;
-      border: none;
-      color: #000;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    footer {
-      background-color: #1a1a1a;
-      color: #999;
+      width: 200px;
       text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
+      color: white;
+    }
+    .book img {
+      width: 100%;
+      height: auto;
+    }
+    .book button {
+      margin-top: 0.5rem;
+      background-color: #d6a857;
+      color: #000;
+      border: none;
+      padding: 0.5rem;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Inside the Heart of Christ Ministries</h1>
-  </header>
-  <nav>
-    <a href="#mission">Mission</a>
-    <a href="#videos">Teachings</a>
-    <a href="#store">Bookstore</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#events">Events</a>
-    <a href="#donate">Donate</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="mission">
-    <h2>Our Mission</h2>
+    <h1>INSIDE THE HEART OF CHRIST MINISTRIES</h1>
+    <p>Equipping Seers. Healing Hearts. Revealing Christ.</p>
+    <button class="btn">WATCH LIVE TEACHINGS</button>
+  </header> <section>
+    <h2>OUR MISSION</h2>
     <p>
-      To equip believers through prophetic teaching and spiritual insight, empowering them to walk in the fullness of Christ.
+      Inside The Heart Of Christ Ministries is a prophetic teaching ministry that brings revelation and truth to you so that your senses can discern both good and evil. We are here to help you recognize and understand your prophetic calling by equipping believers to do the work of the ministry in Jesus name.
     </p>
-  </section>
-
-  <section id="videos">
-    <h2>Latest Teachings</h2>
-    <div class="video-embed">
-      <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/share/p/19Z8Us3hXn/" allowfullscreen></iframe>
-      <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/share/p/1FNaNGk6DR/" allowfullscreen></iframe>
-      <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/share/p/15fb8vPKtw/" allowfullscreen></iframe>
-    </div>
-  </section>
-
-  <section id="store">
-    <h2>The Wisdom Vault - Bookstore</h2>
+  </section> <section class="video-section">
+    <h2>RECENT TEACHINGS FROM FACEBOOK LIVE</h2>
+    <iframe src="https://www.facebook.com/share/p/1AYWGTt4Dv/" allowfullscreen></iframe>
+    <iframe src="https://www.facebook.com/share/p/1BtG8chgpW/" allowfullscreen></iframe>
+    <video controls>
+      <source src="https://www.filemail.com/d/xyrxiewrjeumqnc" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section> <section>
+    <h2>Service: Solutionists Advisory Group</h2>
+    <a href="https://sagadvisorygroup.com/" style="color:white;">https://sagadvisorygroup.com/</a>
+  </section> <section>
+    <h2>Inside The Heart Book Store</h2>
+    <h3>Books That Change Your Heart</h3>
     <div class="book-store">
-      <div class="book-item">
-        <img src="book1.jpg" alt="The Flying Scroll" />
-        <p><strong>The Flying Scroll</strong> – $2</p>
+      <div class="book">
+        <img src="book1.jpg" alt="Prophetic Insights" />
+        <p>Prophetic Insights</p>
+        <p>$14.99</p>
+        <button>Buy Now</button>
       </div>
-      <div class="book-item">
-        <img src="book2.jpg" alt="The Seer House" />
-        <p><strong>The Seer House</strong> – $10</p>
+      <div class="book">
+        <img src="book2.jpg" alt="Chains Shall Be Broken" />
+        <p>Chains Shall Be Broken</p>
+        <p>$12.99</p>
+        <button>Buy Now</button>
       </div>
-      <div class="book-item">
-        <p>All other eBooks: <strong>$5</strong> each.</p>
+      <div class="book">
+        <img src="book3.jpg" alt="The Power of Secret Place" />
+        <p>The Power of Secret Place</p>
+        <p>$13.99</p>
+        <button>Buy Now</button>
       </div>
-      <p><strong>To Order:</strong> Message us with your book title & preferred payment method. You’ll receive your book via email after payment.</p>
+      <div class="book">
+        <img src="book4.jpg" alt="Healing the Heart" />
+        <p>Healing the Heart</p>
+        <p>$11.99</p>
+        <button>Buy Now</button>
+      </div>
     </div>
   </section>
-
-  <section id="gallery">
-    <h2>Gallery</h2>
-    <div class="gallery">
-      <img src="gallery1.jpg" alt="Gallery Image 1">
-      <img src="gallery2.jpg" alt="Gallery Image 2">
-      <img src="gallery3.jpg" alt="Gallery Image 3">
-    </div>
-  </section>
-
-  <section id="events">
-    <h2>Upcoming Events</h2>
-    <p><strong>Facebook Live:</strong> Every Monday at 12 Noon EST</p>
-    <p>Workshops and online teachings throughout the year.</p>
-  </section>
-
-  <section id="donate" class="donate">
-    <h2>Support the Ministry</h2>
-    <p><strong>Ways to Give:</strong></p>
-    <ul>
-      <li><a href="https://cash.app" target="_blank" style="color: #FFD700;">Give via Your Own Cash App</a></li>
-      <li><a href="https://paypal.me/yourlink" target="_blank" style="color: #FFD700;">Give via PayPal</a></li>
-      <li><a href="#" style="color: #FFD700;">Zelle: youremail@example.com</a></li>
-      <li><a href="#" style="color: #FFD700;">Venmo: @YourName</a></li>
-      <li><a href="#" style="color: #FFD700;">Debit/Credit (Coming Soon)</a></li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea rows="4" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <footer>
-    &copy; 2025 Inside the Heart of Christ Ministries | Email: info@heartofchrist.org
-  </footer>
 </body>
 </html>
 
-
-   
-      
-    
-    
-
-  
-     
-    
-
-      
 
 

@@ -2,68 +2,125 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inside The Heart Of Christ Ministries</title>
+  <title>INSIDE The Heart Of Christ Ministries</title>
   <style>
-    body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 0; padding: 0; }
-    header { background: #400101; color: white; padding: 20px; text-align: center; }
-    img.logo { width: 120px; height: auto; }
-    section { padding: 20px; max-width: 900px; margin: auto; background: white; margin-top: 20px; border-radius: 8px; }
-    h2 { color: #400101; }
-    .books img { width: 120px; display: block; margin-bottom: 5px; }
-    .books { display: flex; flex-wrap: wrap; gap: 20px; }
-    .book { flex: 1 1 200px; }
-    iframe { width: 100%; max-width: 800px; height: 400px; border: none; }
-    footer { text-align: center; padding: 20px; background: #400101; color: white; margin-top: 20px; }
-    .about-img { width: 200px; border-radius: 10px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000000;
+      color: #ffffff;
+    }
+    header {
+      background-color: #000000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid #FFD700;
+    }
+    header h1 {
+      color: #FFD700;
+      margin: 0;
+    }
+    nav {
+      background-color: #1a1a1a;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #FFD700;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .video, .book-store {
+      margin-bottom: 40px;
+    }
+    .book {
+      margin: 10px 0;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+      border-top: 3px solid #FFD700;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .logo, .about-photo {
+      display: block;
+      margin: 0 auto 20px;
+      max-width: 300px;
+    }
   </style>
 </head>
-<body> <header>
-    <img src="logo.png" alt="Ministry Logo" class="logo" />
-    <h1>I HEAR A SOUND FROM HEAVEN</h1>
-  </header> <section>
+<body>
+  <header>
+    <h1>INSIDE The Heart Of Christ Ministries</h1>
+  </header>
+  <nav>
+    <a href="#mission">Our Mission</a>
+    <a href="#videos">Watch Videos</a>
+    <a href="#books">Bookstore</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="mission">
     <h2>Our Mission</h2>
-    <p>
-      Inside The Heart Of Christ Ministries is a Prophetic teaching ministry that brings revelation and truth to you so that your senses can discern both good and evil. We are here to help you recognize and understand your prophetic calling by equipping believers to do the work of the ministry in Jesus' name.
-    </p>
-  </section> <section>
-    <h2>Watch Live Teaching</h2>
-    <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/share/p/1AYWGTt4Dv/&show_text=false&autoplay=false"></iframe>
-    <iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/share/p/1BtG8chgpW/&show_text=false&autoplay=false"></iframe>
-  </section> <section>
-    <h2>Service</h2>
-    <p>Solutionists Advisory Group: <a href="https://sagadvisorygroup.com/" target="_blank">https://sagadvisorygroup.com/</a></p>
+    <p>Inside The Heart Of Christ Ministries is a Prophetic teaching ministry that brings revelation and truth to you so that your senses can discern both good and evil. We are here to help you recognize and understand your prophetic calling by equipping believers to do the work of the ministry in Jesus' name.</p>
+  </section>
+  <section id="videos" class="video">
+    <h2>Watch Recent Teachings</h2>
     <p><strong>Watch Inside The Heart Of Christ Ministries Every Monday @12Noon Facebook Live</strong></p>
-  </section> <section>
-    <h2>Inside The Heart Book Store</h2>
+    <ul>
+      <li><a href="https://www.facebook.com/share/p/1AYWGTt4Dv/" target="_blank">Facebook Video 1</a></li>
+      <li><a href="https://www.facebook.com/share/p/1BtG8chgpW/" target="_blank">Facebook Video 2</a></li>
+      <li><a href="https://www.filemail.com/d/xyrxiewrjeumqnc" target="_blank">Download Recent Teachings</a></li>
+    </ul>
+  </section>
+  <section id="books" class="book-store">
+    <h2>Inside The Heart Bookstore</h2>
     <p>Books That Change Your Heart</p>
-    <div class="books">
-      <div class="book">
-        <img src="seers_house.png" alt="The Seer's House" />
-        <p><strong>The Seer's House</strong><br>$10</p>
-        <button disabled>Buy Now (PayPal coming soon)</button>
-      </div>
-      <div class="book">
-        <img src="flying_scroll.png" alt="The Flying Scroll" />
-        <p><strong>The Flying Scroll</strong><br>$2</p>
-        <button disabled>Buy Now (PayPal coming soon)</button>
-      </div>
-      <div class="book">
-        <img src="apostolic_impact.png" alt="Creating an Apostolic Impact" />
-        <p><strong>Creating an Apostolic Impact</strong><br>$5</p>
-        <button disabled>Buy Now (PayPal coming soon)</button>
-      </div>
+    <div class="book">
+      <img src="book_cover_1.jpg" alt="The Seer's House" class="logo" />
+      <p><strong>The Seer’s House</strong> - $10</p>
+      <button>Buy with PayPal</button>
     </div>
-  </section> <section>
+    <div class="book">
+      <img src="book_cover_2.jpg" alt="The Flying Scroll" class="logo" />
+      <p><strong>The Flying Scroll</strong> - $2</p>
+      <button>Buy with PayPal</button>
+    </div>
+    <div class="book">
+      <img src="book_cover_3.jpg" alt="Other Book" class="logo" />
+      <p><strong>Other Book Title</strong> - $5</p>
+      <button>Buy with PayPal</button>
+    </div>
+  </section>
+  <section id="about">
     <h2>About Us</h2>
-    <img src="cedric_and_wife.png" alt="Cedric and Wife" class="about-img" />
-    <p>
-      Cedric Mebane and his wife are founders of Inside The Heart Of Christ Ministries. Their passion is to equip the body of Christ in prophetic truth and biblical understanding.
-    </p>
-  </section> <footer>
-    &copy; 2025 Inside The Heart Of Christ Ministries. All rights reserved.
+    <img src="logo.png" alt="Ministry Logo" class="logo" />
+    <img src="cedric_and_wife.jpg" alt="Cedric and Wife" class="about-photo" />
+    <p>Cedric Mebane and his wife are the founders of Inside The Heart Of Christ Ministries. Their mission is to prophetically teach and equip believers to understand their spiritual calling and walk in divine truth.</p>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>For more information or to connect, please reach out via our Facebook page or email.</p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Inside The Heart Of Christ Ministries. All rights reserved.</p>
   </footer>
 </body>
 </html>
 
 
+
+
+   
+   
 
